@@ -40,7 +40,7 @@ class pdo extends factory
      *
      * @param array $config
      *
-     * @return object
+     * @return $this
      */
     public function config(array $config): object
     {
@@ -58,7 +58,7 @@ class pdo extends factory
      *
      * @param string $type
      *
-     * @return object
+     * @return $this
      */
     public function type(string $type): object
     {
@@ -73,7 +73,7 @@ class pdo extends factory
      *
      * @param string $host
      *
-     * @return object
+     * @return $this
      */
     public function host(string $host): object
     {
@@ -88,7 +88,7 @@ class pdo extends factory
      *
      * @param int $port
      *
-     * @return object
+     * @return $this
      */
     public function port(int $port): object
     {
@@ -103,7 +103,7 @@ class pdo extends factory
      *
      * @param string $user
      *
-     * @return object
+     * @return $this
      */
     public function user(string $user): object
     {
@@ -118,7 +118,7 @@ class pdo extends factory
      *
      * @param string $pwd
      *
-     * @return object
+     * @return $this
      */
     public function pwd(string $pwd): object
     {
@@ -133,7 +133,7 @@ class pdo extends factory
      *
      * @param string $db
      *
-     * @return object
+     * @return $this
      */
     public function db(string $db): object
     {
@@ -148,7 +148,7 @@ class pdo extends factory
      *
      * @param int $timeout
      *
-     * @return object
+     * @return $this
      */
     public function timeout(int $timeout): object
     {
@@ -163,7 +163,7 @@ class pdo extends factory
      *
      * @param bool $persist
      *
-     * @return object
+     * @return $this
      */
     public function persist(bool $persist): object
     {
@@ -178,7 +178,7 @@ class pdo extends factory
      *
      * @param string $charset
      *
-     * @return object
+     * @return $this
      */
     public function charset(string $charset): object
     {
